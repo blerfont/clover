@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	d "github.com/ostafen/clover/v2/document"
-	"github.com/ostafen/clover/v2/index"
-	"github.com/ostafen/clover/v2/internal"
-	"github.com/ostafen/clover/v2/query"
-	"github.com/ostafen/clover/v2/store"
-	"github.com/ostafen/clover/v2/store/bbolt"
+	d "github.com/blerfont/clover/v2/document"
+	"github.com/blerfont/clover/v2/index"
+	"github.com/blerfont/clover/v2/internal"
+	"github.com/blerfont/clover/v2/query"
+	"github.com/blerfont/clover/v2/store"
+	"github.com/blerfont/clover/v2/store/bbolt"
 	uuid "github.com/satori/go.uuid"
 )
 

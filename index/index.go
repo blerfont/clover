@@ -3,7 +3,7 @@ package index
 import (
 	"time"
 
-	"github.com/ostafen/clover/v2/store"
+	"github.com/blerfont/clover/v2/store"
 )
 
 type IndexType int

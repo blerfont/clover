@@ -1,6 +1,6 @@
 package query
 
-import d "github.com/ostafen/clover/v2/document"
+import d "github.com/blerfont/clover/v2/document"
 
 // Query represents a generic query which is submitted to a specific collection.
 type Query struct {

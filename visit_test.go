@@ -3,8 +3,8 @@ package clover
 import (
 	"testing"
 
-	"github.com/ostafen/clover/v2/index"
-	q "github.com/ostafen/clover/v2/query"
+	"github.com/blerfont/clover/v2/index"
+	q "github.com/blerfont/clover/v2/query"
 	"github.com/stretchr/testify/require"
 )
 

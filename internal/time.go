@@ -1,10 +1,10 @@
 package internal
 
 import (
+	"github.com/vmihailenco/msgpack/v5"
 	"time"
 
-	"github.com/ostafen/clover/v2/util"
-	"github.com/vmihailenco/msgpack/v5"
+	"github.com/blerfont/clover/v2/util"
 )
 
 func init() {

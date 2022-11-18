@@ -4,6 +4,8 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/brianvoe/gofakeit/v6"
+	"github.com/dgraph-io/badger/v3"
 	"io/ioutil"
 	"math/rand"
 	"os"
@@ -14,16 +16,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/brianvoe/gofakeit/v6"
-	"github.com/dgraph-io/badger/v3"
 	"github.com/stretchr/testify/require"
 
-	c "github.com/ostafen/clover/v2"
-	d "github.com/ostafen/clover/v2/document"
-	"github.com/ostafen/clover/v2/index"
-	q "github.com/ostafen/clover/v2/query"
-	badgerstore "github.com/ostafen/clover/v2/store/badger"
-	"github.com/ostafen/clover/v2/store/bbolt"
+	c "github.com/blerfont/clover/v2"
+	d "github.com/blerfont/clover/v2/document"
+	"github.com/blerfont/clover/v2/index"
+	q "github.com/blerfont/clover/v2/query"
+	badgerstore "github.com/blerfont/clover/v2/store/badger"
+	"github.com/blerfont/clover/v2/store/bbolt"
 )
 
 const (

@@ -1,4 +1,4 @@
-module github.com/ostafen/clover/v2
+module github.com/blerfont/clover/v2
 
 go 1.13
 

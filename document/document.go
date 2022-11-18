@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ostafen/clover/v2/internal"
-	"github.com/ostafen/clover/v2/util"
+	"github.com/blerfont/clover/v2/internal"
+	"github.com/blerfont/clover/v2/util"
 	uuid "github.com/satori/go.uuid"
 )
 

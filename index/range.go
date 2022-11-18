@@ -1,7 +1,7 @@
 package index
 
 import (
-	"github.com/ostafen/clover/v2/internal"
+	"github.com/blerfont/clover/v2/internal"
 )
 
 type Range struct {

@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	c "github.com/ostafen/clover/v2"
-	d "github.com/ostafen/clover/v2/document"
-	"github.com/ostafen/clover/v2/query"
+	c "github.com/blerfont/clover/v2"
+	d "github.com/blerfont/clover/v2/document"
+	"github.com/blerfont/clover/v2/query"
 )
 
 func main() {

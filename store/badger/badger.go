@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/blerfont/clover/v2/store"
 	"github.com/dgraph-io/badger/v3"
-	"github.com/ostafen/clover/v2/store"
 )
 
 type badgerStore struct {

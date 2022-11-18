@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"path/filepath"
 
-	"github.com/ostafen/clover/v2/store"
+	"github.com/blerfont/clover/v2/store"
 	"go.etcd.io/bbolt"
 )
 
